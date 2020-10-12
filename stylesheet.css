@@ -1,0 +1,44 @@
+.main-nav .nav-button{
+    position: absolute;
+    font-size: 2rem;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.main-nav ul{
+    margin: 0;
+    padding: 0;
+    display: none;
+    list-style: none;
+    background-color: antiquewhite;
+}
+
+.main-nav ul.active{
+    display: block;
+}
+
+.main-nav a{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem; 
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    color: #333;
+}
+
+.main-nav a:hover, .main-nav a:focus{
+    background: #ccc;
+    color: black
+}
+
+.main-nav .nav-button{
+    display: none;
+}
+
+.main-nav ul, .main-nav ul.active{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
